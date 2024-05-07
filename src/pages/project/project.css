@@ -39,7 +39,7 @@
   background: rgba(245, 245, 245, 1);
   color: rgba(36, 42, 60, 1);
 }
-.project-square.bg {
+.project-square:hover {
     background: linear-gradient(108.68deg, #C478BF 6.95%, #984994 39.15%);
 
 }

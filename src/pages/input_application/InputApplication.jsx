@@ -36,7 +36,7 @@ const InputApplication = () => {
             className="additionalMessage"
             placeholder="Дополнительное сообщение"
           />
-          <button type="submit">Отправить <img src="./img/icons/button-submit.png" alt="" /></button>
+          <button className="submit-button" type="submit">Отправить <img src="./img/icons/button-submit.png" alt="" /></button>
         </div>
       </div>
     </div>

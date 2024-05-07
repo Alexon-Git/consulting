@@ -1,0 +1,114 @@
+.footer-container {
+  margin: 152px 100px 71px;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-bottom: 63px;
+  border-bottom: 1px solid rgba(255, 255, 255, 1)
+}
+.footer-logo {
+  margin-bottom: 42px;
+}
+.footer-title-sector {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 100px;
+  /* gap: 224px; */
+}
+.footer-sector {
+  text-align: left;
+}
+.footer-sector-toggle {
+    text-transform: uppercase;
+  margin-bottom: 27px;
+  font-size: 28px;
+  font-weight: 700;
+
+  max-width: 175px;
+
+}
+.footer-sector-menu a {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: left;
+}
+.footer-sector-menu a:hover {
+    background: linear-gradient(108.68deg, #C478BF 6.95%, #984994 39.15%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.footer-contacts {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 42px 28px 54px 34px;
+    align-items: center;
+
+    border-bottom: 1px solid #fff;
+}
+.footer-address, .footer-policy-copyright {
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+text-align: left;
+
+}
+.footer-info {
+    display: flex;
+    /* grid-template-columns: repeat(2, 1fr);*/
+    gap: 22px; 
+    justify-content: space-between;
+}
+.footers-numbers {
+    display: flex;
+    text-align: center;
+
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+
+}
+.footers-numbers p:first-child{
+    padding-right: 15px;
+}
+.footers-numbers p:last-child{
+    padding-left: 15px;
+    border-left: 1px solid #fff;
+}
+.footers-info-img {
+    display: grid;
+    grid-template-columns: repeat(3, 26px);
+    gap: 34px;
+}
+
+
+.footer-policy {
+    padding: 39px 30px 33px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-policy-privacy {
+    display: flex;
+    text-align: center;
+
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+
+}
+.footer-policy-privacy p:first-child{
+    padding-right: 15px;
+}
+.footer-policy-privacy p:last-child{
+    padding-left: 15px;
+    border-left: 1px solid #fff;
+}

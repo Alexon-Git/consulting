@@ -59,14 +59,21 @@ line-height: 20px;
     /* padding: 10px; */
   }
 
-  .application-inputs-items button {
+  .submit-button{
     max-width: 182px;
     padding: 21px 30px;
     border: none;
     border-radius: 200px;
     background: rgba(38, 38, 38, 1);
 
+    
   }
-  .application-inputs-items button img {
-    align-items: center;
+  .submit-button img {
+    vertical-align: middle;
+    margin-left: 5px;
+    transition: margin-left 0.3s ease;
+  }
+
+  .submit-button:hover img{
+    margin-left: 13px;
   }
