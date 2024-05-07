@@ -1,0 +1,42 @@
+.experts-container {
+  margin: 0 128px 82px 103px;
+}
+.experts-head {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 78px;
+}
+.experts-title p {
+  font-size: 20px;
+  font-weight: 500;
+}
+.experts-title h2 {
+  font-size: 65px;
+  font-weight: 700;
+}
+.experts-subtitle {
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+text-align: left;
+
+  max-width: 642px;
+  padding-left: 32px;
+  border-left: 2px solid #fff;
+}
+.experts-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 100px;
+  text-align: right;
+}
+.experts-item h4 {
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 46px;
+  margin-bottom: 13px;
+}
+.experts-item p {
+  font-size: 18px;
+  font-weight: 400;
+}

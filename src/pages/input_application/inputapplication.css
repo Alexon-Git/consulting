@@ -1,0 +1,72 @@
+.application-container {
+  background: linear-gradient(157.1deg, #984994 36.02%, #c478bf 92.14%);
+  padding: 100px 150px;
+  display: flex;
+  gap: 47px;
+}
+.application-inputs-items {
+display: flex;
+flex-direction: column;
+}
+.application-inputs-items h3 {
+  color: #000;
+  font-size: 90px;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: left;
+
+  margin-top: 26px;
+  margin-bottom: 78px;
+}
+.application-inputs-items input {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid rgba(255, 255, 255, 1);
+  padding: 10px 0;
+}
+input::placeholder, textarea::placeholder {
+font-size: 20px;
+font-weight: 400;
+line-height: 20px;
+
+}
+.application-inputs-items input::placeholder {
+  color: black;
+}
+.input-item {
+    display: flex;
+    gap: 56px;
+}
+.input-item input {
+    margin-bottom: 61px;
+
+}
+
+
+.additionalMessage {
+    height: 149px;
+     margin-bottom: 30px;
+     border: none;
+  border-bottom: 2px solid rgba(255, 255, 255, 1);
+
+  }
+  .additionalMessage:active, .additionalMessage:focus {
+    outline: none;
+
+  }
+  .additionalMessage::placeholder {
+    color: #000;
+    /* padding: 10px; */
+  }
+
+  .application-inputs-items button {
+    max-width: 182px;
+    padding: 21px 30px;
+    border: none;
+    border-radius: 200px;
+    background: rgba(38, 38, 38, 1);
+
+  }
+  .application-inputs-items button img {
+    align-items: center;
+  }

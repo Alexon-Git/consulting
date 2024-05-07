@@ -1,0 +1,22 @@
+.partners-container {
+    margin: 216px 100px;
+}
+.partners-head {
+    align-items: center;
+    text-align: center;
+}
+.partners-head p {
+font-size: 20px;
+font-weight: 500;
+line-height: 24px;
+margin-bottom: 15px;
+}
+.partners-head h3 {
+font-size: 48px;
+font-weight: 700;
+line-height: 58px;
+text-transform: uppercase;
+}
+.partners-company {
+    margin-top: 82px;
+}

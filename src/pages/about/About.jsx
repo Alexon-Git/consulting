@@ -35,12 +35,12 @@ const About = () => {
           <div className="about-subtitle">
             <div className="about-subtitle-list">
             <div>
-            <ul>онлайн-поддержка</ul>
+            <ul>• онлайн-поддержка</ul>
 
-            <ul>Качественные услуги</ul>
+            <ul>• Качественные услуги</ul>
             </div>
             <div>
-                <ul>группа экспертов</ul>
+                <ul>• группа экспертов</ul>
             </div>
 
             </div>

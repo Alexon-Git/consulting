@@ -1,0 +1,19 @@
+.reviews-container {
+  padding: 150px 300px;
+  background: rgba(152, 73, 148, 1);
+  color: #000;
+}
+.reviews-head{
+    text-align: left;
+}
+.reviews-head p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25.52px;    
+}
+.reviews-head h3 {
+font-size: 70px;
+font-weight: 700;
+line-height: 89.32px;
+
+}
