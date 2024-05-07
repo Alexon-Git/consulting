@@ -1,3 +1,7 @@
+
+.experts {
+  position: relative;
+}
 .experts-container {
   margin: 0 128px 82px 103px;
 }
@@ -38,7 +42,7 @@ text-align: left;
   transition: font-size 0.6s ease;
 }
 .experts-item:hover h4{
-  font-size: 30px;
+  font-size: 28px;
 }
 .experts-item p {
   font-size: 18px;
@@ -46,5 +50,12 @@ text-align: left;
   transition: font-size 0.6s ease;
 }
 .experts-item:hover p{
-  font-size: 23px;
+  font-size: 21px;
+}
+
+.experts-ellipse-img {
+  position: absolute;
+  right: 0;
+  z-index: -1;
+  bottom: -617px;
 }

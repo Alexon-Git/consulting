@@ -3,7 +3,7 @@ import "./expert.css";
 
 const Experts = () => {
   return (
-    <div>
+    <div className="experts">
       <div className="experts-container">
         <div className="experts-head">
           <div className="experts-title">
@@ -52,6 +52,7 @@ const Experts = () => {
                 <p>Creative Director</p>
             </div>
         </div>
+        <img className="experts-ellipse-img" src="./img/collection/ellipse-experts.svg" alt="" />
       </div>
     </div>
   );
