@@ -24,7 +24,7 @@ function App() {
     <Experts/>
     <Project/>
     <Partners/>
-    {/* <Reviews/> */}
+    <Reviews/>
     <InputApplication/>
     <Footer/>
     </>

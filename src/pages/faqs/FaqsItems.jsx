@@ -12,7 +12,7 @@ const FaqsItems = () => {
     const data = [
         {
             id: '01',
-            question: 'HR-консалтингггггг',
+            question: 'HR-консалтинг',
             answer: [
                 "включает в себя",
                 "— создание системы HR",

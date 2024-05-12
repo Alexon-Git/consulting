@@ -44,10 +44,10 @@ const About = () => {
             </div>
 
             </div>
-            <div className="about-detail">
+            {/* <div className="about-detail">
                 <p>Подробнее</p>
                 <img src="./img/icons/about-right-arrow.svg" alt="" />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

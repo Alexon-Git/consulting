@@ -21,14 +21,14 @@ const Sector = () => {
 
         <div className="sector-grid">
           <div className="sector-item">
-            <img src="./img/icons/grey-empty.png" alt="" />
+            <img src="./img/icons/seed.png" alt="" />
             <div className="sector-item__name">
               <h4 className="background-gradient">Агропромышленный комплекс</h4>
             </div>
           </div>
 
           <div className="sector-item">
-            <img src="./img/icons/grey-empty.png" alt="" />
+            <img src="./img/icons/tie.png" alt="" />
             <div className="sector-item__name">
               <h4 className="background-gradient">Государственный сектор</h4>
             </div>
@@ -62,14 +62,14 @@ const Sector = () => {
           </div>
 
           <div className="sector-item">
-            <img src="./img/icons/grey-empty.png" alt="" />
+            <img src="./img/icons/spoon.png" alt="" />
             <div className="sector-item__name">
               <h4 className="background-gradient">Пищевая промышленность</h4>
             </div>
           </div>
 
           <div className="sector-item">
-            <img src="./img/icons/grey-empty.png" alt="" />
+            <img src="./img/icons/wood-industries.png" alt="" />
             <div className="sector-item__name">
               <h4 className="background-gradient">
                 Легкая промышленность, деревообрабатывающая промышленность
@@ -78,7 +78,7 @@ const Sector = () => {
           </div>
 
           <div className="sector-item">
-            <img src="./img/icons/grey-empty.png" alt="" />
+            <img src="./img/icons/connection.png" alt="" />
             <div className="sector-item__name">
               <h4 className="background-gradient">
                 Связь и телекомму- никации
@@ -113,7 +113,7 @@ const Sector = () => {
           </div>
 
           <div className="sector-item">
-            <img src="./img/icons/grey-empty.png" alt="" />
+            <img src="./img/icons/coin.png" alt="" />
             <div className="sector-item__name">
               <h4 className="background-gradient">
                 Финансовый сектор: банки и страховые компании

@@ -41,17 +41,17 @@ text-align: left;
   margin-bottom: 13px;
   transition: font-size 0.6s ease;
 }
-.experts-item:hover h4{
+/* .experts-item:hover h4{
   font-size: 28px;
-}
+} */
 .experts-item p {
   font-size: 18px;
   font-weight: 400;
   transition: font-size 0.6s ease;
 }
-.experts-item:hover p{
+/* .experts-item:hover p{
   font-size: 21px;
-}
+} */
 
 .experts-ellipse-img {
   position: absolute;

@@ -50,7 +50,7 @@ const Main = () => {
             <img src="./img/collection/statistic.jpg" className="" alt="" />
           </div>
           <div className="main-ellipse-img">
-            <img src="./img/collection/ellipse.svg" alt="" />
+            <img src="./img/collection/ellipse.png" alt="" />
           </div>
         </div>
       </div>

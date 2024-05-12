@@ -21,6 +21,9 @@ const Footer = () => {
               </div>
               <div className="footer-sector-menu">
                 <ul className="footer-sector-menu-list">
+                <li>
+                    <a href="#!">Услуги</a>
+                  </li>
                   <li>
                     <a href="#!">Кейсы</a>
                   </li>
@@ -29,15 +32,6 @@ const Footer = () => {
                   </li>
                   <li>
                     <a href="#!">Команда</a>
-                  </li>
-                  <li>
-                    <a href="#!">Инсайты</a>
-                  </li>
-                  <li>
-                    <a href="#!">Testimonials</a>
-                  </li>
-                  <li>
-                    <a href="#!">Услуги</a>
                   </li>
                 </ul>
               </div>

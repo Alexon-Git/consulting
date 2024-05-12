@@ -33,7 +33,7 @@ const Faqs = () => {
           </div>
 
           <FaqsItems />
-        <img className="faqs-under-vector" src="./img/collection/faqs-under-vector.png" alt="" />
+        {/* <img className="faqs-under-vector" src="./img/collection/faqs-under-vector.png" alt="" /> */}
         </div>
       </div>
     </>

@@ -30,21 +30,6 @@ const Header = () => {
                 команда
               </a>
             </li>
-            <li>
-              <a className="nav_link" href="#!">
-                инсайты
-              </a>
-            </li>
-            <li>
-              <a className="nav_link" href="#!">
-                e-learning
-              </a>
-            </li>
-            <li>
-              <a className="nav_link" href="#!">
-                tsq online
-              </a>
-            </li>
           </ul>
 
 

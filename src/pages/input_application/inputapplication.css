@@ -1,5 +1,7 @@
 .application-container {
-  background: linear-gradient(157.1deg, #984994 36.02%, #c478bf 92.14%);
+  background: linear-gradient(165.1deg, #984994 36.02%, #c478bf 92.14%);
+  /* background: linear-gradient(157.1deg, #984994 36.02%, #C478BF 92.14%); */
+
   padding: 100px 150px;
   display: flex;
   gap: 47px;
