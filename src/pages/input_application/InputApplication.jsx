@@ -4,7 +4,7 @@ import "./inputapplication.css";
 const InputApplication = () => {
   return (
     <div>
-      <div className="application-container">
+      <div className="application-container" id="application">
         <img src="./img/collection/inputs-application.png" alt="" />
 
         <div className="application-inputs-items">

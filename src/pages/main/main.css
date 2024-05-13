@@ -42,16 +42,18 @@
   font-weight: 500;
   font-size: 14px;
 }
+.main-btn img {
+  transition: margin-left 0.3s ease;
+
+}
+.main-btn:hover img{
+  margin-left: 10px;
+}
 .main-photos {
   display: flex;
   margin-left: 43px;
   margin-right: 22.28px;
 }
-
-/* .main_photo {
-  width: 46px;
-  height: 46px;
-} */
 
 .main-photos img {
   border: 2px solid rgba(255, 255, 255, 1);
@@ -105,9 +107,6 @@
   .main-title {
   font-size: 50px;
   line-height: 50px;
-  }
-  .main-btn {
-    /* padding: 10px; */
   }
   .main-btn a{
 font-size: 8px;

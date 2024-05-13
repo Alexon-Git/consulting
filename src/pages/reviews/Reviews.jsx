@@ -24,7 +24,7 @@ const Reviews = () => {
           loop={false}
           autoHeight={true}
           slidesPerView={1}
-          // spaceBetween={50}
+          // spaceBetween={100}
           mousewheel={true}
           pagination={{
             clickable: true,
@@ -33,7 +33,7 @@ const Reviews = () => {
           modules={[Mousewheel, Pagination]}
           // className="reviews-item"
         >
-          <SwiperSlide style={{ height: "1px" }}>
+          <SwiperSlide style={{ height: "130px" }}>
             <div className="reviews-slider">
               <div className="reviews-stars">
                 <img src="./img/icons/stars.png" alt="" />
@@ -57,7 +57,7 @@ const Reviews = () => {
               </div>
             </div>
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide style={{ height: "130px" }}>
             <div className="reviews-slider">
               <div className="reviews-stars">
                 <img src="./img/icons/stars.png" alt="" />
@@ -80,7 +80,7 @@ const Reviews = () => {
               </div>
             </div>
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide style={{ height: "130px" }}>
             <div className="reviews-slider">
               <div className="reviews-stars">
                 <img src="./img/icons/stars.png" alt="" />
@@ -103,7 +103,7 @@ const Reviews = () => {
               </div>
             </div>
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide style={{ height: "130px" }}>
             <div className="reviews-slider">
               <div className="reviews-stars">
                 <img src="./img/icons/stars.png" alt="" />

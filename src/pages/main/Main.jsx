@@ -8,8 +8,8 @@ const Main = () => {
         <div className="main-content">
           <div className="main-content__left">
             <div className="main-title">
-              <h1>tsq </h1>
-              <h1 className="background-gradient">consulting</h1>
+              <h1>АИ КОНСТАЛТИНГ</h1>
+              <h1 className="background-gradient">ГРУПП</h1>
             </div>
             <div className="main-subtitle">
               <p>
@@ -21,7 +21,7 @@ const Main = () => {
             </div>
             <div className="main-subcontent">
               <div className="main-btn">
-                <a href="#!">Заполнить бриф</a>
+                <a href="#application">Заполнить бриф</a>
                 <img src="./img/icons/arrow-right.svg" alt="arrow right" />
               </div>
               <div className="main-photos">

@@ -3,7 +3,7 @@ import "./expert.css";
 
 const Experts = () => {
   return (
-    <div className="experts">
+    <div className="experts" id="expert">
       <div className="experts-container">
         <div className="experts-head">
           <div className="experts-title">

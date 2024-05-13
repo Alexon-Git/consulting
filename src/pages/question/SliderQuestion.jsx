@@ -1,16 +1,17 @@
-import { useState } from "react";
+import React from "react";
 import "./question.css";
 
-const SliderQuestion = ({ id, question, options }) => {
-  const [selectedOptions, setSelectedOptions] = useState([]);
+const SliderQuestion = ({ id, question, options, selectedOptions, handleOptionChange }) => {
+  // const [selectedOptions, setSelectedOptions] = useState([]);
 
-  const handleOptionChange = (option) => {
-    if (selectedOptions.includes(option)) {
-      setSelectedOptions(selectedOptions.filter((item) => item !== option));
-    } else {
-      setSelectedOptions([...selectedOptions, option]);
-    }
-  };
+  // const handleOptionChange = (option) => {
+  //   if (selectedOptions.includes(option)) {
+  //     setSelectedOptions(selectedOptions.filter((item) => item !== option));
+  //   } else {
+  //     setSelectedOptions([...selectedOptions, option]);
+  //   }
+  // };
+  const isSelected = (option) => selectedOptions && selectedOptions.includes(option);
 
   return (
     <div className="question-item">
@@ -26,11 +27,11 @@ const SliderQuestion = ({ id, question, options }) => {
                 <input
                   type="checkbox"
                   value={option}
-                  id={option}
-                  checked={selectedOptions.includes(option)}
+                  id={`${id}-${index}`}
+                  checked={isSelected(option)}
                   onChange={() => handleOptionChange(option)}
                 />
-                <label htmlFor={option}>
+                <label htmlFor={`${id}-${index}`}>
                   {option}
                 </label>
               </li>

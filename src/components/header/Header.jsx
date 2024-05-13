@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./header.css";
 
 const Header = () => {
@@ -9,6 +9,34 @@ const Header = () => {
     setIsMobileNavOpen(!isMobileNavOpen);
   };
 
+  useEffect(() => {
+    const smoothScroll = (e) => {
+      e.preventDefault();
+      
+      const targetId = e.target.getAttribute('href').substring(1);
+      const targetElement = document.getElementById(targetId);
+      const headerHeight = document.querySelector('header').offsetHeight;
+      const yOffset = targetElement.getBoundingClientRect().top + window.pageYOffset - headerHeight;
+
+      window.scrollTo({
+        top: yOffset,
+        behavior: 'smooth'
+      });
+    };
+
+    const smoothScrollLinks = document.querySelectorAll('a[href^="#"]');
+    
+    smoothScrollLinks.forEach(link => {
+      link.addEventListener('click', smoothScroll);
+    });
+
+    // Убираем слушатели событий при размонтировании компонента
+    return () => {
+      smoothScrollLinks.forEach(link => {
+        link.removeEventListener('click', smoothScroll);
+      });
+    };
+  }, []);
   return (
     <header>
       <div className="main-container">
@@ -18,29 +46,29 @@ const Header = () => {
           </div>
           <ul className="nav_list">
             <li>
-              <a className="menu_link" href="#!">
+              <a className="menu_link" href="#faqs">
                 услуги
               </a>
             </li>
             <li>
-              <a className="menu_link" href="#!">
+              <a className="menu_link" href="#project">
                 кейсы
               </a>
             </li>
             <li>
-              <a className="nav_link" href="#!">
+              <a className="nav_link" href="#client">
                 клиенты
               </a>
             </li>
             <li>
-              <a className="nav_link" href="#!">
+              <a className="nav_link" href="#expert">
                 команда
               </a>
             </li>
           </ul>
 
           <div className="nav_btn">
-            <a className="btn_white" href="#!">
+            <a className="btn_white" href="#footer">
               Контакты
             </a>
           </div>

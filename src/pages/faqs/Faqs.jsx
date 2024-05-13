@@ -7,7 +7,7 @@ const Faqs = () => {
 
   return (
     <>
-      <div className="faqs">
+      <div className="faqs" id="faqs">
         <img
           className="faqs-vector-img"
           src="./img/collection/vector-faqs.png"
