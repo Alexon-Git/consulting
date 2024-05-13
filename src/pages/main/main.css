@@ -80,3 +80,58 @@
   position: absolute;
   z-index: -1;
 }
+
+@media (max-width: 900px) {
+  .main-img-static {
+    top: 50px;
+    z-index: -1;
+  }
+  .main-ellipse-img {
+    z-index: -2;
+  }
+  .main-content__right {
+    position: absolute;
+    z-index: -1;
+    right: 0;
+  }
+}
+
+@media (max-width: 700px) {
+  .main-content__left {
+    display: flex;
+    flex-direction: column;
+    /* max-width: 250px; */
+  }
+  .main-title {
+  font-size: 50px;
+  line-height: 50px;
+  }
+  .main-btn {
+    /* padding: 10px; */
+  }
+  .main-btn a{
+font-size: 8px;
+  }
+}
+
+@media (max-width: 455px) {
+  .main-subcontent {
+    flex-direction: column;
+    gap: 10px;
+    
+    /* justify-content: flex-start; Располагает элементы сверху вниз */
+    /* align-items: flex-start; */
+  }
+  .main-title {
+    font-size: 30px;
+    line-height: 50px;
+    margin-top: 75px;
+    }
+    .main-subtitle {
+      font-size: 10px;
+    }
+    .main-img-static {
+      top: 0;
+      z-index: -1;
+    }
+}
