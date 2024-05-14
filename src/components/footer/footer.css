@@ -15,7 +15,6 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 100px;
-  /* gap: 224px; */
 }
 .footer-sector {
   text-align: left;
@@ -60,13 +59,13 @@
 }
 .footer-info {
   display: flex;
-  /* grid-template-columns: repeat(2, 1fr);*/
   gap: 22px;
   justify-content: space-between;
 }
 .footers-numbers {
   display: flex;
   text-align: center;
+  align-items: center;
 
   font-size: 14px;
   font-weight: 400;
@@ -90,11 +89,13 @@
 
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .footer-policy-privacy {
   display: flex;
   text-align: center;
+  align-items: center;
 
   font-size: 14px;
   font-weight: 400;
@@ -102,8 +103,73 @@
 }
 .footer-policy-privacy p:first-child {
   padding-right: 15px;
+  border-left: none;
 }
-.footer-policy-privacy p:last-child {
+.footer-policy-privacy p {
   padding-left: 15px;
   border-left: 1px solid #fff;
+}
+.footer-policy-right-content img {
+  padding-bottom: 5px;
+}
+.footer-policy-right-content {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+@media (max-width: 1440px) {
+  .footer-content {
+    display: block;
+  }
+  .footer-title-sector {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 1000px) {
+  .footer-container {
+    margin: 80px 20px 200px;
+  }
+  .footer-contacts,
+  .footer-policy {
+    display: block;
+  }
+  .footer-policy-right-content {
+    justify-content: space-between;
+  }
+  .footer-policy-privacy p:first-child {
+    padding-left: 0;
+  }
+}
+@media (max-width: 645px) {
+  .footer-policy-right-content,
+  .footer-info {
+    display: block;
+  }
+  .footer-title-sector {
+    display: block;
+  }
+  .footer-sector-item {
+    margin-bottom: 20px;
+  }
+  .footer-sector-toggle {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 485px) {
+  .footer-contacts {
+    padding: 20px 10px;
+  }
+  .footer-policy {
+    padding: 20px 10px;
+  }
+  .footers-info-img {
+    margin-top: 20px;
+  }
+  .footer-policy-right-content img {
+    margin-top: 20px;
+  }
+  .footer-logo {
+    max-width: 200px;
+  }
 }

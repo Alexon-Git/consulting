@@ -12,28 +12,30 @@ const Header = () => {
   useEffect(() => {
     const smoothScroll = (e) => {
       e.preventDefault();
-      
-      const targetId = e.target.getAttribute('href').substring(1);
+
+      const targetId = e.target.getAttribute("href").substring(1);
       const targetElement = document.getElementById(targetId);
-      const headerHeight = document.querySelector('header').offsetHeight;
-      const yOffset = targetElement.getBoundingClientRect().top + window.pageYOffset - headerHeight;
+      const headerHeight = document.querySelector("header").offsetHeight;
+      const yOffset =
+        targetElement.getBoundingClientRect().top +
+        window.pageYOffset -
+        headerHeight;
 
       window.scrollTo({
         top: yOffset,
-        behavior: 'smooth'
+        behavior: "smooth",
       });
     };
 
     const smoothScrollLinks = document.querySelectorAll('a[href^="#"]');
-    
-    smoothScrollLinks.forEach(link => {
-      link.addEventListener('click', smoothScroll);
+
+    smoothScrollLinks.forEach((link) => {
+      link.addEventListener("click", smoothScroll);
     });
 
-    // Убираем слушатели событий при размонтировании компонента
     return () => {
-      smoothScrollLinks.forEach(link => {
-        link.removeEventListener('click', smoothScroll);
+      smoothScrollLinks.forEach((link) => {
+        link.removeEventListener("click", smoothScroll);
       });
     };
   }, []);
@@ -75,48 +77,55 @@ const Header = () => {
 
           <div class="nav__icon">
             <button class="mobile-nav-btn" onClick={toggleMobileNav}>
-            {isMobileNavOpen ? (
-            <img className="nav-icon" src="./img/icons/close_icon.svg" alt="Close" />
-          ) : (
-            <img className="nav-icon" src="./img/icons/mobile_nav.svg" alt="Open" />
-          )}
+              {isMobileNavOpen ? (
+                <img
+                  className="nav-icon"
+                  src="./img/icons/close_icon.svg"
+                  alt="Close"
+                />
+              ) : (
+                <img
+                  className="nav-icon"
+                  src="./img/icons/mobile_nav.svg"
+                  alt="Open"
+                />
+              )}
             </button>
           </div>
         </nav>
       </div>
       {isMobileNavOpen && (
         <div className="mobile-nav-overlay">
+          <div className="mobile-nav">
+            <ul>
+              <li>
+                <a className="menu_link" href="#faqs">
+                  услуги
+                </a>
+              </li>
+              <li>
+                <a className="menu_link" href="#project">
+                  кейсы
+                </a>
+              </li>
+              <li>
+                <a className="nav_link" href="#client">
+                  клиенты
+                </a>
+              </li>
+              <li>
+                <a className="nav_link" href="#expert">
+                  команда
+                </a>
+              </li>
 
-        <div className="mobile-nav">
-          <ul>
-            <li>
-              <a className="menu_link" href="#!">
-                услуги
-              </a>
-            </li>
-            <li>
-              <a className="menu_link" href="#!">
-                кейсы
-              </a>
-            </li>
-            <li>
-              <a className="nav_link" href="#!">
-                клиенты
-              </a>
-            </li>
-            <li>
-              <a className="nav_link" href="#!">
-                команда
-              </a>
-            </li>
-
-            <div className="nav_btn_mobile">
-              <a className="btn_white-mobile" href="#!">
-                Контакты
-              </a>
-            </div>
-          </ul>
-        </div>
+              <div className="nav_btn_mobile">
+                <a className="btn_white-mobile" href="#!">
+                  Контакты
+                </a>
+              </div>
+            </ul>
+          </div>
         </div>
       )}
     </header>

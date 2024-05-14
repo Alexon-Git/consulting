@@ -1,21 +1,20 @@
 .reviews-container {
-  padding: 150px 293px 0 300px ;
+  padding: 150px 293px 0 300px;
   background: rgba(152, 73, 148, 1);
   color: #000;
 }
-.reviews-head{
-    text-align: left;
+.reviews-head {
+  text-align: left;
 }
-.reviews-head p{
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 25.52px;    
+.reviews-head p {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25.52px;
 }
 .reviews-head h3 {
-font-size: 70px;
-font-weight: 700;
-line-height: 89.32px;
-
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 89.32px;
 }
 .reviews-item {
   display: flex;
@@ -25,7 +24,6 @@ line-height: 89.32px;
 .reviews-slider {
   margin-top: 58px;
   height: 241px;
-  /* max-width: 1107px; */
 }
 .reviews-stars {
   margin-bottom: 27px;
@@ -35,75 +33,54 @@ line-height: 89.32px;
   border-bottom: 1px solid #000;
   margin-bottom: 36px;
 
-  /* display: flex;
-  gap: 179px; */
 }
-.reviews-title p{
-font-size: 30px;
-font-weight: 500;
-line-height: 38.28px;
-text-align: left;
+.reviews-title p {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 38.28px;
+  text-align: left;
 }
 .reviews-person {
   display: flex;
   align-items: center;
   gap: 20px;
 }
-.reviews-person img{
+.reviews-person img {
   width: 104px;
   height: 104px;
   border-radius: 50px;
   border: 1px solid #000;
 }
-.reviews-name h6{
-font-size: 20px;
-font-weight: 700;
-line-height: 25.52px;
+.reviews-name h6 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25.52px;
 }
 .reviews-name p {
-font-size: 16px;
-font-weight: 400;
-line-height: 20.42px;
-
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20.42px;
 }
 .reviews-pagination {
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 30px;
- /* background: #000; */
 }
 
-
-
-/* Стили для всех точек пагинации */
 .reviews-pagination .swiper-pagination-bullet {
-  /* Ваши стили для точек пагинации здесь */
   background: #000;
   opacity: inherit;
-  /* margin: 15px; */
 
-  /* padding: 15px; */
 }
 
-/* Стили для активной точки пагинации */
-/* .reviews-pagination .swiper-pagination-bullet-active {
-  background-color: #fff;
-  border-radius: 50px;
-  border: 1px solid #000;
-
-
-} */
-
-/* Стили для активной точки пагинации */
 .reviews-pagination .swiper-pagination-bullet-active {
   background-color: #fff;
   border: 1px solid #000;
 
-  position: relative; /* Для отображения над рамкой */
+  position: relative; 
 }
 
-/* Псевдоэлемент для рамки */
 .reviews-pagination .swiper-pagination-bullet-active::before {
   content: "";
   position: absolute;
@@ -114,7 +91,38 @@ line-height: 20.42px;
   height: 30px;
   border-radius: 50%;
   border: 1px solid #000;
-
-  /* box-shadow: 0 0 0 1px #000; Отступ рамки на 15px */
 }
 
+@media (max-width: 1600px) {
+  .reviews-container {
+    padding: 80px 30px 0;
+  }
+}
+@media (max-width: 1000px) {
+  .reviews-title p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .reviews-item {
+    gap: 20px;
+  }
+}
+@media (max-width: 660px) {
+  .reviews-head h3 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .reviews-slider {
+    margin-top: 20px;
+  }
+  .reviews-name h6 {
+    font-size: 15px;
+  }
+  .reviews-name p {
+    font-size: 13px;
+  }
+  .reviews-title p {
+    font-size: 15px;
+    line-height: 20px;
+  }
+}

@@ -1,6 +1,5 @@
 .about {
   position: relative;
-
 }
 .about-container {
   margin: 117px 100px 432px;
@@ -11,27 +10,24 @@
 .about-content__left img {
   position: absolute;
   z-index: -1;
-  /* left: 0; */
-  /* top: 0; */
-  /* max-height: 1071px; */
+
   border-radius: 0 0 0 500px;
 }
 .about-content__right {
   margin-top: 135px;
 }
 .about-title {
-    margin-bottom: 99px;
-    margin-left: 280px;
+  margin-bottom: 99px;
+  margin-left: 280px;
 }
 .about-title p {
-    /* font-family: Space Grotesk; */
-    font-size: 20px;
-    font-weight: 400;
-    /* line-height: 24px; */
-    text-align: left;
+  font-size: 20px;
+  font-weight: 400;
+
+  text-align: left;
 }
 .about-title h4 {
-    text-transform: uppercase;
+  text-transform: uppercase;
   font-size: 48px;
   font-weight: 700;
   line-height: 58px;
@@ -68,23 +64,80 @@
 .about-subtitle {
   margin-top: 56px;
   margin-left: 280px;
-
 }
 .about-subtitle-list {
-    display: flex;
-    margin-bottom: 67px;
-    gap: 61px;
+  display: flex;
+  margin-bottom: 67px;
+  gap: 61px;
 }
-.about-subtitle-list ul{
-font-size: 24px;
-font-weight: 700;
-text-transform: uppercase;
+.about-subtitle-list ul {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
 
-margin-bottom: 20px;
-
+  margin-bottom: 20px;
 }
 .about-detail {
-    display: flex;
-    gap: 5px;
-    align-items: center;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+@media (max-width: 1800px) {
+}
+@media (max-width: 1440px) {
+  .about-container {
+    margin: 117px 100px 432px;
+  }
+  .about-subtitle {
+    margin-top: 30px;
+    margin-left: 0;
+  }
+}
+@media (max-width: 1000px) {
+  .about-statistic-number_item {
+    padding: 15px 40px;
+  }
+  .about-title {
+    margin: 50px 20px;
+  }
+  .about-content__right {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 800px) {
+  .about-container {
+    margin: 30px 10px 200px;
+  }
+}
+@media (max-width: 645px) {
+  .about-container {
+    margin: 30px 10px 40px;
+    display: block;
+  }
+  .about-statistic-numbers {
+    display: block;
+  }
+  .about-statistic-number_item {
+    border-right: none;
+    border-bottom: 1px solid #000;
+    padding: 0;
+    margin: 15px 20px;
+  }
+}
+@media (max-width: 470px) {
+  .about-title h4 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .about-statistic-number_item h4 {
+    font-size: 30px;
+  }
+  .about-subtitle-list {
+    display: block;
+    margin-bottom: 40px;
+    gap: 30px;
+  }
+  .about-subtitle-list ul {
+    font-size: 15px;
+  }
 }

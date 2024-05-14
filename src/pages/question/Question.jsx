@@ -37,20 +37,18 @@ const Question = () => {
   //   }
   // };
 
-
-
   const swiperRef = useRef(null);
-  const [buttonText, setButtonText] = useState('Далее');
+  const [buttonText, setButtonText] = useState("Далее");
   const [activeSlide, setActiveSlide] = useState(0);
   const [isAnswered, setIsAnswered] = useState([]);
 
   const handleChangeButtonText = (slideIndex) => {
     if (slideIndex === 4) {
-      setButtonText('Последний вопрос');
+      setButtonText("Последний вопрос");
     } else if (slideIndex === 5) {
-      setButtonText('Отправить заявку');
+      setButtonText("Отправить заявку");
     } else {
-      setButtonText('Далее');
+      setButtonText("Далее");
     }
   };
 
@@ -59,28 +57,26 @@ const Question = () => {
   }, [activeSlide]);
 
   const handleOptionChange = (option) => {
-    setIsAnswered(prevState => {
+    setIsAnswered((prevState) => {
       const isSelected = prevState.includes(option);
       let updatedSelectedOptions;
-  
+
       if (isSelected) {
-        updatedSelectedOptions = prevState.filter(item => item !== option);
+        updatedSelectedOptions = prevState.filter((item) => item !== option);
       } else {
         updatedSelectedOptions = [...prevState, option];
       }
-  
+
       return updatedSelectedOptions;
     });
   };
-  
 
   const goToNextQuestion = () => {
     if (swiperRef.current !== null) {
       const currentSlideIndex = swiperRef.current.swiper.activeIndex;
-  
-     
+
       const isAnsweredOnCurrentSlide = isAnswered[currentSlideIndex];
-  
+
       if (isAnsweredOnCurrentSlide && isAnsweredOnCurrentSlide.length > 0) {
         swiperRef.current.swiper.slideNext();
         setActiveSlide(currentSlideIndex + 1);
@@ -96,7 +92,6 @@ const Question = () => {
       setActiveSlide(activeSlide - 1);
     }
   };
-
 
   return (
     <div>
@@ -115,7 +110,12 @@ const Question = () => {
           </div>
         </div>
 
-        <Swiper navigation={true} modules={[Navigation]} ref={swiperRef} onSlideChange={(swiper) => setActiveSlide(swiper.activeIndex)}>
+        <Swiper
+          navigation={true}
+          modules={[Navigation]}
+          ref={swiperRef}
+          onSlideChange={(swiper) => setActiveSlide(swiper.activeIndex)}
+        >
           <SwiperSlide>
             <SliderQuestion
               id="01"

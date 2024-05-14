@@ -25,7 +25,6 @@ const Main = () => {
                 <img src="./img/icons/arrow-right.svg" alt="arrow right" />
               </div>
               <div className="main-photos">
-                {/* <div className="main_photo"></div> */}
                 <img src="./img/icons/photo1.png" alt="" />
                 <img src="./img/icons/photo2.png" alt="" />
                 <img src="./img/icons/photo3.png" alt="" />

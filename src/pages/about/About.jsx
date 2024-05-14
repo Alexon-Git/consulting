@@ -12,8 +12,8 @@ const About = () => {
           <div className="about-title">
             <p>О нас</p>
             <h4>
-              Мы здесь <br />чтобы{" "}
-              <span className="background-gradient">помочь вам</span>
+              Мы здесь <br />
+              чтобы <span className="background-gradient">помочь вам</span>
             </h4>
           </div>
           <div className="about-statistic">
@@ -34,20 +34,15 @@ const About = () => {
           </div>
           <div className="about-subtitle">
             <div className="about-subtitle-list">
-            <div>
-            <ul>• онлайн-поддержка</ul>
+              <div>
+                <ul>• онлайн-поддержка</ul>
 
-            <ul>• Качественные услуги</ul>
-            </div>
-            <div>
+                <ul>• Качественные услуги</ul>
+              </div>
+              <div>
                 <ul>• группа экспертов</ul>
+              </div>
             </div>
-
-            </div>
-            {/* <div className="about-detail">
-                <p>Подробнее</p>
-                <img src="./img/icons/about-right-arrow.svg" alt="" />
-            </div> */}
           </div>
         </div>
       </div>

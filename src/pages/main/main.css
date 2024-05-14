@@ -44,9 +44,8 @@
 }
 .main-btn img {
   transition: margin-left 0.3s ease;
-
 }
-.main-btn:hover img{
+.main-btn:hover img {
   margin-left: 10px;
 }
 .main-photos {
@@ -63,7 +62,7 @@
   height: 100%;
   object-fit: contain;
 
-  position: relative; 
+  position: relative;
   margin-left: -15px;
 }
 .main-stars {
@@ -105,11 +104,11 @@
     /* max-width: 250px; */
   }
   .main-title {
-  font-size: 50px;
-  line-height: 50px;
+    font-size: 50px;
+    line-height: 50px;
   }
-  .main-btn a{
-font-size: 8px;
+  .main-btn a {
+    font-size: 8px;
   }
 }
 
@@ -117,20 +116,17 @@ font-size: 8px;
   .main-subcontent {
     flex-direction: column;
     gap: 10px;
-    
-    /* justify-content: flex-start; Располагает элементы сверху вниз */
-    /* align-items: flex-start; */
   }
   .main-title {
     font-size: 30px;
-    line-height: 50px;
-    margin-top: 75px;
-    }
-    .main-subtitle {
-      font-size: 10px;
-    }
-    .main-img-static {
-      top: 0;
-      z-index: -1;
-    }
+    line-height: 35px;
+    margin-top: 130px;
+  }
+  .main-subtitle {
+    font-size: 10px;
+  }
+  .main-img-static {
+    top: 0;
+    z-index: -1;
+  }
 }

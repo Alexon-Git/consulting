@@ -59,3 +59,43 @@ text-align: left;
   z-index: -1;
   bottom: -617px;
 }
+
+@media (max-width: 1440px) {
+.experts-container {
+  margin-top: 30px;
+}
+}
+@media (max-width: 1000px) {
+  .experts-container {
+    margin: 0 10px 82px;
+  }
+  .experts-head {
+    display: block;
+  }
+  .experts-title h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  .experts-grid{
+    gap: 30px;
+  }
+}
+@media (max-width: 645px) {
+
+}
+@media (max-width: 485px) {
+  .experts-subtitle {
+    font-size: 12px;
+    line-height: 20px;
+
+  }
+  .experts-head {
+    margin-bottom: 30px;
+  }
+  .experts-item h4 {
+    font-size: 15px;
+  }
+  .experts-item p {
+    font-size: 12px;
+  }
+}

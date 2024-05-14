@@ -47,7 +47,11 @@ const Project = () => {
             <div className="project-square-flex">
               <div className="project-square__title">
                 <p>Производственная компания (NDA)</p>
-                <h5>Launching<br />Products</h5>
+                <h5>
+                  Launching
+                  <br />
+                  Products
+                </h5>
               </div>
               <div className="project-square__btn">
                 <img src="./img/icons/arrow-top-black.svg" alt="" />
@@ -59,14 +63,26 @@ const Project = () => {
           <div className="project-square">
             <div className="project-square-flex">
               <div className="project-square__title">
-                <p>Компания<br />Bonava</p>
-                <h5>Grocery<br />Applications</h5>
+                <p>
+                  Компания
+                  <br />
+                  Bonava
+                </p>
+                <h5>
+                  Grocery
+                  <br />
+                  Applications
+                </h5>
               </div>
               <div className="project-square__btn">
                 <img src="./img/icons/arrow-top-black.svg" alt="" />
               </div>
             </div>
-            <img src="./img/collection/project-img.png" alt="project" />
+            <img
+              className="project-square-img"
+              src="./img/collection/project-img.png"
+              alt="project"
+            />
           </div>
         </div>
       </div>

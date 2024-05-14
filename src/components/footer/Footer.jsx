@@ -111,10 +111,14 @@ const Footer = () => {
             <div className="footer-policy-copyright">
                 <span>Copyright ©dai themes All Rights Reserved.</span>
             </div>
+            <div className="footer-policy-right-content">
             <div className="footer-policy-privacy">
                 <p>Terms & Condition </p>
 
                 <p>Privacy Policy</p>
+            </div>
+              
+                <img src="./img/icons/nil.png" alt="" />
             </div>
         </div>
       </div>

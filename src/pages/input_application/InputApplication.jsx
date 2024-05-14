@@ -5,7 +5,11 @@ const InputApplication = () => {
   return (
     <div>
       <div className="application-container" id="application">
-        <img src="./img/collection/inputs-application.png" alt="" />
+        <img
+          className="application-container-img"
+          src="./img/collection/inputs-application.png"
+          alt=""
+        />
 
         <div className="application-inputs-items">
           <h3>Оставить заявку</h3>
@@ -36,7 +40,9 @@ const InputApplication = () => {
             className="additionalMessage"
             placeholder="Дополнительное сообщение"
           />
-          <button className="submit-button" type="submit">Отправить <img src="./img/icons/button-submit.png" alt="" /></button>
+          <button className="submit-button" type="submit">
+            Отправить <img src="./img/icons/button-submit.png" alt="" />
+          </button>
         </div>
       </div>
     </div>

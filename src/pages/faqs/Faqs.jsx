@@ -3,8 +3,6 @@ import "./faqs.css";
 import FaqsItems from "./FaqsItems";
 
 const Faqs = () => {
-
-
   return (
     <>
       <div className="faqs" id="faqs">
@@ -33,7 +31,6 @@ const Faqs = () => {
           </div>
 
           <FaqsItems />
-        {/* <img className="faqs-under-vector" src="./img/collection/faqs-under-vector.png" alt="" /> */}
         </div>
       </div>
     </>

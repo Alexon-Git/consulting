@@ -2,15 +2,7 @@ import React from "react";
 import "./question.css";
 
 const SliderQuestion = ({ id, question, options, selectedOptions, handleOptionChange }) => {
-  // const [selectedOptions, setSelectedOptions] = useState([]);
 
-  // const handleOptionChange = (option) => {
-  //   if (selectedOptions.includes(option)) {
-  //     setSelectedOptions(selectedOptions.filter((item) => item !== option));
-  //   } else {
-  //     setSelectedOptions([...selectedOptions, option]);
-  //   }
-  // };
   const isSelected = (option) => selectedOptions && selectedOptions.includes(option);
 
   return (
