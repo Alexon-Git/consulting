@@ -29,10 +29,13 @@ textarea::placeholder {
   font-size: 20px;
   font-weight: 400;
   line-height: 20px;
+  color: #fff;
+
 }
-.application-inputs-items input::placeholder {
-  color: black;
-}
+
+ textarea.additionalMessage::placeholder{
+  color: #fff;
+} 
 .input-item {
   display: flex;
   gap: 56px;
@@ -98,5 +101,6 @@ textarea::placeholder {
 @media (max-width: 485px) {
   .application-inputs-items h3 {
     font-size: 30px;
+    margin-top: 0;  
   }
 }

@@ -40,7 +40,7 @@ const Project = () => {
                 <img src="./img/icons/arrow-top-black.svg" alt="" />
               </div>
             </div>
-            <img src="./img/collection/project-img.png" alt="project" />
+            <img className="project-square-img" src="./img/collection/project-img.png" alt="project" />
           </div>
 
           <div className="project-square bg">
@@ -57,7 +57,7 @@ const Project = () => {
                 <img src="./img/icons/arrow-top-black.svg" alt="" />
               </div>
             </div>
-            <img src="./img/collection/project-img.png" alt="project" />
+            <img className="project-square-img" src="./img/collection/project-img.png" alt="project" />
           </div>
 
           <div className="project-square">

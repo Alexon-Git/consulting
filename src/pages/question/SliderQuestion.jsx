@@ -17,7 +17,8 @@ const SliderQuestion = ({ id, question, options, selectedOptions, handleOptionCh
             options.map((option, index) => (
               <li key={index} className="custom-checkbox">
                 <input
-                  type="checkbox"
+                  type="radio"
+                  name={`question-${id}`} 
                   value={option}
                   id={`${id}-${index}`}
                   checked={isSelected(option)}

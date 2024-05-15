@@ -60,7 +60,7 @@
 }
 
 .faqs-buttons .faqs-btn {
-  color: #000;
+  /* color: #000; */
   background: linear-gradient(108.68deg, #c478bf 6.95%, #984994 39.15%);
   border: none;
 }
@@ -217,15 +217,18 @@
   }
   .faqs-description p {
     font-size: 10px;
-    line-height: 0;
+    line-height: 10px;
+    margin-bottom: 20px;
   }
   .faqs-description h2 {
-    font-size: 25px;
+    font-size: 30px;
     line-height: 30px;
+    margin-bottom: 25px;
   }
   .faqs-description span {
     font-size: 15px;
     line-height: 5px;
+    max-width: 321px;
   }
   .faqs-buttons {
     margin-top: 80px;
@@ -261,5 +264,20 @@
   }
   .faqs-includes-text li {
     font-size: 15px;
+  }
+}
+@media (max-width: 350px) {
+  .faqs-description h2{
+    font-size: 25px;
+    line-height: 25px;
+    margin-bottom: 10px;
+  }
+  .faqs-description p {
+    font-size: 10px;
+    line-height: 10px;
+    margin-bottom: 10px;
+  }
+  .faqs-description span{
+    font-size: 12px;
   }
 }

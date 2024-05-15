@@ -10,7 +10,8 @@ const Partners = () => {
                     <h3>наши партнеры</h3>
                 </div>
                 <div className="partners-company">
-                    <img src="./img/collection/company.png" alt="" />
+                    <img src="./img/collection/company-left.png" alt="" />
+                    <img src="./img/collection/company-right.png" alt="" />
                 </div>
             </div>
         </div>

@@ -97,13 +97,14 @@
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .main-content__left {
     display: flex;
     flex-direction: column;
     /* max-width: 250px; */
   }
   .main-title {
+    /* margin-top: 20px; */
     font-size: 50px;
     line-height: 50px;
   }

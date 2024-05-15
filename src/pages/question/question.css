@@ -1,3 +1,12 @@
+.swiper-container {
+  overflow: hidden; /* Предотвращает выход контента за границы контейнера */
+}
+
+.swiper-slide {
+  /* width: auto !important; Устанавливает ширину слайда в зависимости от его содержимого */
+  margin: 0 auto; /* Центрирует слайд по горизонтали */
+}
+
 .question-container {
   margin: 0 100px;
 }
@@ -47,7 +56,7 @@
   margin-right: 20px;
 }
 
-input[type="checkbox"] {
+input[type="radio"] {
   display: none;
 }
 

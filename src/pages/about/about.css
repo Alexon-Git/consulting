@@ -93,7 +93,10 @@
     margin-left: 0;
   }
 }
-@media (max-width: 1000px) {
+@media (max-width: 1010px) {
+  .about-content__left img {
+    left: 0;
+  }
   .about-statistic-number_item {
     padding: 15px 40px;
   }
@@ -116,6 +119,10 @@
   }
   .about-statistic-numbers {
     display: block;
+padding-bottom: 20px;
+
+
+
   }
   .about-statistic-number_item {
     border-right: none;

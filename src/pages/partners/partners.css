@@ -19,8 +19,27 @@
 }
 .partners-company {
   margin-top: 82px;
+  display: flex;
+  gap: 60px;
 }
-
+.partners-company img {
+  max-width: 50%;
+  height: auto; 
+}
+@media (max-width: 1100px){
+  .partners-container {
+    margin: 80px 20px;
+}
+  .partners-company {
+    margin-top: 60px;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+  .partners-company img {
+    max-width: 100%; 
+  }
+}
 @media (max-width: 695px) {
   .partners-container {
     margin: 10px;
@@ -30,5 +49,14 @@
   }
   .partners-company {
     margin-top: 20px;
+  }
+}
+@media (max-width: 400px) {
+  .partners-head h3 {
+    font-size: 20px;
+  }
+  .partners-head p {
+    font-size: 18px;
+    margin-bottom: 0; 
   }
 }

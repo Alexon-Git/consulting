@@ -141,5 +141,7 @@ text-transform: uppercase;
     }
   }
   @media (max-width: 485px) {
-
+    .project-square-img {
+      width: 200px;
+  }
   }

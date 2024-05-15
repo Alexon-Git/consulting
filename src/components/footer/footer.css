@@ -109,9 +109,9 @@
   padding-left: 15px;
   border-left: 1px solid #fff;
 }
-.footer-policy-right-content img {
+/* .footer-policy-right-content img {
   padding-bottom: 5px;
-}
+} */
 .footer-policy-right-content {
   display: flex;
   gap: 40px;

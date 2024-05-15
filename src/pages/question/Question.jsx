@@ -7,36 +7,6 @@ import "./question.css";
 import { Navigation } from "swiper/modules";
 
 const Question = () => {
-  // const swiperRef = useRef(null);
-  // const [buttonText, setButtonText] = useState("Далее");
-
-  // const [activeSlide, setActiveSlide] = useState(0);
-  // const [selectedOptions, setSelectedOptions] = useState([]);
-
-  // const handleChangeButtonText = (slideIndex) => {
-  //   if (slideIndex === 4) {
-  //     setButtonText("Последний вопрос");
-  //   } else if (slideIndex === 5) {
-  //     setButtonText("Отправить заявку");
-  //   } else {
-  //     setButtonText("Далее");
-  //   }
-  // };
-
-  // const goToNextQuestion = () => {
-  //   if (swiperRef.current !== null) {
-  //     swiperRef.current.swiper.slideNext();
-  //     handleChangeButtonText(swiperRef.current.swiper.activeIndex);
-  //   }
-  // };
-
-  // const goToPrevQuestion = () => {
-  //   if (swiperRef.current !== null) {
-  //     swiperRef.current.swiper.slidePrev();
-  //     handleChangeButtonText(swiperRef.current.swiper.activeIndex);
-  //   }
-  // };
-
   const swiperRef = useRef(null);
   const [buttonText, setButtonText] = useState("Далее");
   const [activeSlide, setActiveSlide] = useState(0);
@@ -114,6 +84,7 @@ const Question = () => {
           navigation={true}
           modules={[Navigation]}
           ref={swiperRef}
+          cssMode={true}
           onSlideChange={(swiper) => setActiveSlide(swiper.activeIndex)}
         >
           <SwiperSlide>

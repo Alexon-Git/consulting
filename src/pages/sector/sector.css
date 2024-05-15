@@ -112,4 +112,9 @@
     padding-top: 6px;
     line-height: 15px;
   }
+  .sector-grid {
+    gap: 10px;
+}
+
+
 }
