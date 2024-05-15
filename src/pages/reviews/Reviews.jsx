@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import { Mousewheel, Pagination } from "swiper/modules";
@@ -9,25 +9,6 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 const Reviews = () => {
-  // const [swiperHeight, setSwiperHeight] = useState(130); // Начальная высота
-
-  // useEffect(() => {
-  //   const handleResize = () => {
-  //     const width = window.innerWidth;
-  //     if (width <= 660) {
-  //       setSwiperHeight(10000); // Устанавливаем высоту 100px при ширине меньше или равной 660px
-  //     } else {
-  //       setSwiperHeight(130); // Возвращаем обычную высоту при большей ширине
-  //     }
-  //   };
-
-  //   window.addEventListener('resize', handleResize);
-
-  //   // Убираем обработчик события при размонтировании компонента
-  //   return () => {
-  //     window.removeEventListener('resize', handleResize);
-  //   };
-  // }, []);// Подключаем необходимые модули Swiper, если такие есть
   return (
     <div>
       <div className="reviews-container">

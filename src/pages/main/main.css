@@ -116,7 +116,7 @@
 @media (max-width: 455px) {
   .main-subcontent {
     flex-direction: column;
-    gap: 10px;
+    gap: 15px;
   }
   .main-title {
     font-size: 30px;
