@@ -9,7 +9,7 @@ const Footer = () => {
           <div className="footer-content-logo">
             <img
               className="footer-logo"
-              src="./img/icons/footer-logo.png"
+              src="./img/icons/logo.svg"
               alt=""
             />
             <img src="./img/collection/footer-img.png" alt="" />
@@ -118,7 +118,7 @@ const Footer = () => {
                 <p>Privacy Policy</p>
             </div>
               
-                <img src="./img/icons/nil.png" alt="" />
+                <img src="./img/icons/nil.svg" alt="" />
             </div>
         </div>
       </div>
