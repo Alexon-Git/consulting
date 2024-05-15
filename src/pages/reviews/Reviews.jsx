@@ -9,25 +9,25 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 const Reviews = () => {
-  const [swiperHeight, setSwiperHeight] = useState(130); // Начальная высота
+  // const [swiperHeight, setSwiperHeight] = useState(130); // Начальная высота
 
-  useEffect(() => {
-    const handleResize = () => {
-      const width = window.innerWidth;
-      if (width <= 660) {
-        setSwiperHeight(10000); // Устанавливаем высоту 100px при ширине меньше или равной 660px
-      } else {
-        setSwiperHeight(130); // Возвращаем обычную высоту при большей ширине
-      }
-    };
+  // useEffect(() => {
+  //   const handleResize = () => {
+  //     const width = window.innerWidth;
+  //     if (width <= 660) {
+  //       setSwiperHeight(10000); // Устанавливаем высоту 100px при ширине меньше или равной 660px
+  //     } else {
+  //       setSwiperHeight(130); // Возвращаем обычную высоту при большей ширине
+  //     }
+  //   };
 
-    window.addEventListener('resize', handleResize);
+  //   window.addEventListener('resize', handleResize);
 
-    // Убираем обработчик события при размонтировании компонента
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    };
-  }, []);// Подключаем необходимые модули Swiper, если такие есть
+  //   // Убираем обработчик события при размонтировании компонента
+  //   return () => {
+  //     window.removeEventListener('resize', handleResize);
+  //   };
+  // }, []);// Подключаем необходимые модули Swiper, если такие есть
   return (
     <div>
       <div className="reviews-container">
@@ -48,7 +48,7 @@ const Reviews = () => {
             }}
             modules={[Mousewheel, Pagination]}
           >
-            <SwiperSlide style={{ height: `${swiperHeight}px` }}>
+            <SwiperSlide style={{ height: '130px' }}>
               <div className="reviews-slider">
                 <div className="reviews-stars">
                   <img src="./img/icons/stars.png" alt="" />
@@ -71,7 +71,7 @@ const Reviews = () => {
                 </div>
               </div>
             </SwiperSlide>
-            <SwiperSlide style={{ height: `${swiperHeight}px` }}>
+            <SwiperSlide style={{ height: '130px' }}>
               <div className="reviews-slider">
                 <div className="reviews-stars">
                   <img src="./img/icons/stars.png" alt="" />
@@ -94,7 +94,7 @@ const Reviews = () => {
                 </div>
               </div>
             </SwiperSlide>
-            <SwiperSlide style={{ height: `${swiperHeight}px` }}>
+            <SwiperSlide style={{ height: '130px' }}>
               <div className="reviews-slider">
                 <div className="reviews-stars">
                   <img src="./img/icons/stars.png" alt="" />
@@ -117,7 +117,7 @@ const Reviews = () => {
                 </div>
               </div>
             </SwiperSlide>
-            <SwiperSlide style={{ height: `${swiperHeight}px` }}>
+            <SwiperSlide style={{ height: '130px' }}>
               <div className="reviews-slider">
                 <div className="reviews-stars">
                   <img src="./img/icons/stars.png" alt="" />
