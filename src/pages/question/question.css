@@ -1,11 +1,4 @@
-.swiper-container {
-  overflow: hidden; /* Предотвращает выход контента за границы контейнера */
-}
 
-.swiper-slide {
-  /* width: auto !important; Устанавливает ширину слайда в зависимости от его содержимого */
-  margin: 0 auto; /* Центрирует слайд по горизонтали */
-}
 
 .question-container {
   margin: 0 100px;
@@ -35,7 +28,6 @@
 
   font-size: 40px;
   font-weight: 500;
-  /* line-height: 14px; */
   text-align: left;
 }
 .question-answers ul {
@@ -142,7 +134,7 @@ input[type="radio"] {
   background: linear-gradient(93.98deg, #c478bf 46.75%, #984994 91.85%);
 }
 
-.swiper-wrapper {
+.question-container .swiper-wrapper {
   gap: 20px;
 }
 
