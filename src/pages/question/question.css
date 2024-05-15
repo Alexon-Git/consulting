@@ -142,6 +142,10 @@ input[type="radio"] {
   background: linear-gradient(93.98deg, #c478bf 46.75%, #984994 91.85%);
 }
 
+.swiper-wrapper {
+  gap: 20px;
+}
+
 @media (max-width: 905px) {
   .question-buttons {
     margin-top: 40px;
