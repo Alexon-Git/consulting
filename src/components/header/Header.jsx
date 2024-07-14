@@ -75,8 +75,8 @@ const Header = () => {
             </a>
           </div>
 
-          <div class="nav__icon">
-            <button class="mobile-nav-btn" onClick={toggleMobileNav}>
+          <div className="nav__icon">
+            <button className="mobile-nav-btn" onClick={toggleMobileNav}>
               {isMobileNavOpen ? (
                 <img
                   className="nav-icon"
