@@ -19,11 +19,11 @@ const About = () => {
           <div className="about-statistic">
             <div className="about-statistic-numbers">
               <div className="about-statistic-number_item">
-                <h4>950+</h4>
+                <h4>20+</h4>
                 <p>Проектов в год</p>
               </div>
               <div className="about-statistic-number_item about-white">
-                <h4>203+</h4>
+                <h4>10+</h4>
                 <p>Клиентов в год</p>
               </div>
               <div className="about-statistic-number_item">
@@ -37,7 +37,7 @@ const About = () => {
               <div>
                 <ul>• онлайн-поддержка</ul>
 
-                <ul>• Качественные услуги</ul>
+                <ul>• Гарантия на услуги</ul>
               </div>
               <div>
                 <ul>• группа экспертов</ul>

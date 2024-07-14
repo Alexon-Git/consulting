@@ -29,14 +29,16 @@
 .sector-subtitle {
   max-width: 643px;
   padding-top: 12px;
+  border-left: 6px solid rgba(152, 73, 148, 1);
+
 }
 .sector-subtitle p {
+  margin-bottom: 15px;
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
   text-align: left;
 
-  border-left: 6px solid rgba(152, 73, 148, 1);
   padding-left: 26px;
 }
 

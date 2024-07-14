@@ -9,7 +9,7 @@ const Footer = () => {
           <div className="footer-content-logo">
             <img
               className="footer-logo"
-              src="./img/icons/logo.svg"
+              src="./img/icons/logo.png"
               alt=""
             />
             <img src="./img/collection/footer-img.png" alt="" />
@@ -22,16 +22,16 @@ const Footer = () => {
               <div className="footer-sector-menu">
                 <ul className="footer-sector-menu-list">
                 <li>
-                    <a href="#!">Услуги</a>
+                    <a href="#faqs">Услуги</a>
                   </li>
                   <li>
-                    <a href="#!">Кейсы</a>
+                    <a href="#project">Кейсы</a>
                   </li>
                   <li>
-                    <a href="#!">Клиенты</a>
+                    <a href="#client">Клиенты</a>
                   </li>
                   <li>
-                    <a href="#!">Команда</a>
+                    <a href="#expert">Команда</a>
                   </li>
                 </ul>
               </div>
@@ -95,14 +95,19 @@ const Footer = () => {
           </div>
           <div className="footer-info">
             <div className="footers-numbers">
-                <p>180 4568 7894</p>
-                <p>180 5879 69874</p>
+              <img src="./img/icons/phone.png" alt="" />
+              <a href="tel:88126010807">8 (812) 601 08 07</a>
+                <a href="tel:89523674641">8 952 367 46 41</a>
+               
               
             </div>
               <div className="footers-info-img">
-                    <img src="./img/icons/linkedln.png" alt="ld" />
+              <img src="./img/icons/mail.png" alt="" />
+
+                <a href="mailto:cons@neirogroup.ru">cons@neirogroup.ru</a>
+                    {/* <img src="./img/icons/linkedln.png" alt="ld" />
                     <img src="./img/icons/ig.png" alt="ig" />
-                    <img src="./img/icons/fb.png" alt="fb" />
+                    <img src="./img/icons/fb.png" alt="fb" /> */}
                 </div>
           </div>
         </div>

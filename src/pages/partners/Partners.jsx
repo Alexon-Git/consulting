@@ -11,12 +11,19 @@ const Partners = () => {
         </div>
         <div className="partners-company">
           <div className="partners-company-img">
-            <img src="./img/collection/company-left.png" alt="" />
-            <img src="./img/collection/company-right.png" alt="" />
+            <img src="./img/collection/company-icon1.png" alt="" />
+            <img src="./img/collection/company-icon2.png" alt="" />
+            <img src="./img/collection/company-icon3.png" alt="" />
+            <img src="./img/collection/company-icon4.png" alt="" />
+          <img src="./img/collection/company-icon5.png" alt="" />
+
           </div>
           <div className="partners-company-img">
-            <img src="./img/collection/company-left-bottom.png" alt="" />
-            <img src="./img/collection/company-right-bottom.png" alt="" />
+          <img src="./img/collection/company-icon6.png" alt="" />
+          <img src="./img/collection/company-icon7.png" alt="" />
+          <img src="./img/collection/company-icon8.png" alt="" />
+          <img src="./img/collection/company-icon9.png" alt="" />
+
           </div>
         </div>
       </div>

@@ -44,7 +44,7 @@ const Header = () => {
       <div className="main-container">
         <nav className="head_nav">
           <div className="nav_logo">
-            <img src="./img/icons/logo.svg" alt="logo" />
+            <img src="./img/icons/logo.png" alt="logo" />
           </div>
           <ul className="nav_list">
             <li>

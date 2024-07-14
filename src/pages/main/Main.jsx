@@ -8,10 +8,14 @@ const Main = () => {
         <div className="main-content">
           <div className="main-content__left">
             <div className="main-title">
-              <h1>АИ КОНСТАЛТИНГ</h1>
-              <h1 className="background-gradient">ГРУПП</h1>
+              <h1> NEIRO</h1>
+              <h1 className="background-gradient"> GROUP</h1>
             </div>
             <div className="main-subtitle">
+              <p>Внимание. Понимание. Контекст.</p>
+              <p>
+              Neiro Group - это консалтинговая группа экспертов и уникальные нейронные сети, улучшающие Ваш бизнес.
+              </p>
               <p>
                 Помогаем компаниям реализовать успешные изменения, работая над
                 решениями в сферах управленческого и HR-консалтинга, в основе

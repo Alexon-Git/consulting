@@ -12,6 +12,11 @@
   gap: 36px;
 }
 
+.nav_logo {
+  width: 102px;
+  height: 108px;
+}
+
 .nav_list a {
   color: var(--text-color);
   text-transform: uppercase;

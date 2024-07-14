@@ -1,5 +1,5 @@
 .partners-container {
-  margin: 216px 100px;
+  margin: 216px 100px 100px;
 }
 .partners-head {
   align-items: center;
@@ -26,7 +26,7 @@
 }
 .partners-company-img {
   display: flex;
-  gap: 185px;
+  gap: 80px;
 }
 /* .partners-company img {
   max-width: 50%;
